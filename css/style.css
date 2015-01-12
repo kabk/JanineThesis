@@ -39,6 +39,7 @@ h1  {
   font-size: 150pt;
   line-height: 150pt;
   -webkit-animation:0; /*infinite*/
+  -moz-animation:0;
 
   /*standaard*/
   position: relative;
@@ -51,7 +52,8 @@ h2 {
   /*variabel*/
   left: 0;
   font-size: 50pt;
-  -webkit-animation: whisper 7s ease-in-out ; /*infinite*/
+  -webkit-animation: whisper 7s ease-in-out infinite; /*infinite*/
+  -moz-animation: whisper 7s ease-in-out infinite;
 
   /*standaard*/
   position: relative;
@@ -66,6 +68,7 @@ h3 {
   width: 50%;
   font-size: 30pt;
   -webkit-animation:0; /*infinite*/
+  -moz-animation:0;
 
   /*standaard*/
   position: relative;
@@ -80,6 +83,7 @@ blockquote {
   width: 50%;
   font-size: 40pt;
   -webkit-animation:0; /*infinite*/
+  -moz-animation:0;
 
   /*standaard*/
   position: relative;
@@ -96,6 +100,7 @@ p {
   font-size: 12pt;
   line-height: 18pt;  
   -webkit-animation:0; /*infinite*/
+  -moz-animation:0;
 
   /*standaard*/
   position: relative;
@@ -229,6 +234,12 @@ sub {
 
 
 @-webkit-keyframes whisper {
+  0%   {padding-left:0px;}
+  50%  {padding-left:30px;}
+  100% {padding-left:0px;}
+}
+
+@-moz-keyframes whisper {
   0%   {padding-left:0px;}
   50%  {padding-left:30px;}
   100% {padding-left:0px;}

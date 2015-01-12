@@ -16,17 +16,21 @@ $(function(){
       var afwijking = Math.floor((Math.random()*10)+1);
       if(afwijking % 2 == 0){//als het een even getal is:
         item.css('left', "-"+afwijking+"%");
-      }else{        
+      }else{
         item.css('left', afwijking+"%");
       }
       item.css('width', Math.floor((Math.random()*60)+30)+"%");
-      item.css('font-size', Math.floor((Math.random()*4)+10)+"pt");
+      item.css('font-size', Math.floor((Math.random()*7)+10)+"pt");
       item.css('-webkit-animation', "whisper "+Math.floor((Math.random()*6)+1)+"s ease-in-out infinite");
+      item.css('-moz-animation', "whisper "+Math.floor((Math.random()*6)+1)+"s ease-in-out infinite");
     }
+
     //h1
     else if( item.is('h1') ){
       item.css('-webkit-animation', "whisper "+Math.floor((Math.random()*6)+1)+"s ease-in-out infinite");
+      item.css('-moz-animation', "whisper "+Math.floor((Math.random()*6)+1)+"s ease-in-out infinite");
     }
+    
     //h2
     else if( item.is('h2') ){
       var afwijking = Math.floor((Math.random()*10)+1);
@@ -37,7 +41,9 @@ $(function(){
       }
       item.css('font-size', Math.floor((Math.random()*20)+50)+"pt");
       item.css('-webkit-animation', "whisper "+Math.floor((Math.random()*6)+1)+"s ease-in-out infinite");
+      item.css('-moz-animation', "whisper "+Math.floor((Math.random()*6)+1)+"s ease-in-out infinite");
     }
+    
     //h3
     else if( item.is('h3') ){
       var afwijking = Math.floor((Math.random()*10)+1);
@@ -48,7 +54,9 @@ $(function(){
       }
       item.css('font-size', Math.floor((Math.random()*20)+20)+"pt");
       item.css('-webkit-animation', "whisper "+Math.floor((Math.random()*6)+1)+"s ease-in-out infinite");
+      item.css('-moz-animation', "whisper "+Math.floor((Math.random()*6)+1)+"s ease-in-out infinite");
     }
+    
     //quote
     else if( item.is('blockquote') ){
       var afwijking = Math.floor((Math.random()*20)+1);
@@ -59,6 +67,7 @@ $(function(){
       }
       item.css('font-size', Math.floor((Math.random()*15)+20)+"pt");
       item.css('-webkit-animation', "whisper "+Math.floor((Math.random()*6)+1)+"s ease-in-out infinite");
+      item.css('-moz-animation', "whisper "+Math.floor((Math.random()*6)+1)+"s ease-in-out infinite");
     }
   });
 
