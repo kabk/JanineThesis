@@ -51,9 +51,10 @@ h1  {
 h2 {
   /*variabel*/
   left: 0;
+  width: 60%;
   font-size: 50pt;
-  -webkit-animation: whisper 7s ease-in-out infinite; /*infinite*/
-  -moz-animation: whisper 7s ease-in-out infinite;
+  /*-webkit-animation: whisper 7s ease-in-out infinite; /*infinite*/*/
+  /*-moz-animation: whisper 7s ease-in-out infinite;*/
 
   /*standaard*/
   position: relative;
@@ -65,8 +66,8 @@ h2 {
 h3 {
   /*variabel*/
   left: 0;
-  width: 50%;
-  font-size: 30pt;
+  width: 60%;
+  font-size: 24pt;
   -webkit-animation:0; /*infinite*/
   -moz-animation:0;
 
@@ -80,7 +81,7 @@ h3 {
 blockquote {
   /*variabel*/
   left: 0;
-  width: 50%;
+  width: 60%;
   font-size: 40pt;
   -webkit-animation:0; /*infinite*/
   -moz-animation:0;
@@ -96,7 +97,7 @@ blockquote {
 p {
   /*variabel*/
   left: 0;
-  width: 50%;
+  width: 60%;
   font-size: 12pt;
   line-height: 18pt;  
   -webkit-animation:0; /*infinite*/
@@ -195,6 +196,12 @@ p>a {
   top: -7px;
 }
 
+blockquote>a {
+  position: relative;
+  font-size: 10px;
+  top: -30px;
+}
+
 
 /*--------------------*/
 /* afbeelding divjes! */
@@ -226,6 +233,20 @@ p>a {
   -webkit-filter: blur(2px);
 }
 
+.video   {
+  position: absolute;
+  right: 10%;
+  width: 560px;
+  background-color: #000;
+  margin:15px;
+  margin-top: -200px;
+  padding: 15px;
+  opacity: 0.2;
+  z-index: 40;
+  -moz-filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
 .image-left:hover {
   opacity: 1;
   -webkit-filter: blur(0px);
@@ -237,6 +258,11 @@ p>a {
 
 }
 
+.video:hover {
+  opacity: 1;
+  -webkit-filter: blur(0px);
+
+}
 
 
 img {

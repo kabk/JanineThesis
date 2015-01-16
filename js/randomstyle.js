@@ -39,6 +39,7 @@ $(function(){
       }else{        
         item.css('left', afwijking+"%");
       }
+      item.css('width', Math.floor((Math.random()*60)+30)+"%");
       item.css('font-size', Math.floor((Math.random()*20)+50)+"pt");
       item.css('-webkit-animation', "whisper "+Math.floor((Math.random()*6)+1)+"s ease-in-out infinite");
       item.css('-moz-animation', "whisper "+Math.floor((Math.random()*6)+1)+"s ease-in-out infinite");
