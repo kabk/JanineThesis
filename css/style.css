@@ -141,7 +141,7 @@ nav {
 
 #menu {
   margin: 20px;
-  font-size: 16px;
+  font-size: 14px;
   position: fixed;
   width: 200px;
   float: left;
@@ -163,6 +163,65 @@ nav {
 
 #menu:hover #menu-lijst{
   display: block;
+}
+
+
+/*-----------------*/
+/* alles met about */
+/*-----------------*/
+
+
+#about {
+  z-index: 90; 
+  margin: 20px;
+  font-size: 14px;
+  position: fixed;
+  float: left;
+  width: 200px;
+  top: 0;
+  right: 0;
+  text-align: right;
+
+  /*background-color: #fff;*/
+  padding: 0;
+}
+
+#about>a {
+  cursor: pointer;
+}
+
+#about-lijst {
+  text-align: right;
+  display: none;
+  position: absolute;
+  width: 200px;
+  padding: 0;
+}
+
+#about:hover #about-lijst{
+  display: block;
+}
+
+/*--------------------*/
+/* alles met abstract */
+/*--------------------*/
+
+
+#abstract {
+  z-index: 90; 
+  margin: 20px;
+  font-size: 14px;
+  position: fixed;
+  float: left;
+  width: 200px;
+  bottom: 0;
+
+  /*background-color: #fff;*/
+  padding: 0;
+}
+
+#abstract>a {
+  cursor: pointer;
 }
 
 
