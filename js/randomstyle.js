@@ -21,8 +21,8 @@ $(function(){
       }
       item.css('width', Math.floor((Math.random()*60)+30)+"%");
       item.css('font-size', Math.floor((Math.random()*7)+10)+"pt");
-      item.css('-webkit-animation', "whisper "+Math.floor((Math.random()*8)+3)+"s ease-in-out infinite");
-      item.css('-moz-animation', "whisper "+Math.floor((Math.random()*8)+3)+"s ease-in-out infinite");
+      item.css('-webkit-animation', "whisper "+Math.floor((Math.random()*8)+4)+"s ease-in-out infinite");
+      item.css('-moz-animation', "whisper "+Math.floor((Math.random()*8)+4)+"s ease-in-out infinite");
     }
 
     //h1
@@ -67,8 +67,8 @@ $(function(){
         item.css('left', afwijking+"%");
       }
       item.css('font-size', Math.floor((Math.random()*15)+20)+"pt");
-      item.css('-webkit-animation', "whisper "+Math.floor((Math.random()*6)+1)+"s ease-in-out infinite");
-      item.css('-moz-animation', "whisper "+Math.floor((Math.random()*6)+1)+"s ease-in-out infinite");
+      item.css('-webkit-animation', "whisper "+Math.floor((Math.random()*8)+4)+"s ease-in-out infinite");
+      item.css('-moz-animation', "whisper "+Math.floor((Math.random()*8)+4)+"s ease-in-out infinite");
     }
   });
 

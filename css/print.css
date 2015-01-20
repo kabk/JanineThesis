@@ -1,16 +1,96 @@
 /*this is the print*/
 
 .item {
-  page-break-before: always
+  padding-bottom: 0;
+  page-break-before: left;
+
 }
 
 a:after {
-content: " (" attr(href) ") ";
+/*  content: " (" attr(href) ") ";*/
 }
+
+
+/*dit is alles wat ik niet wil zien*/
 
 #menu {
-display: none;
+  display: none;
+}
+
+#abstract {
+  display: none;
+}
+
+#about {
+  display: none;
+}
+
+#printbutton {
+  display: none;
+}
+
+/* dit is alles wat ik wel wil zien!*/
+
+#print {
+  display: block;
 }
 
 
+/*--TYPE--*/
 
+h1  {
+  /*variabel*/
+  left: 0;
+  font-size: 120pt;
+  line-height: 120pt;
+  -webkit-animation:0; /*infinite*/
+  -moz-animation:0;
+
+  /*standaard*/
+  position: relative;
+  margin: 0 auto;
+  font-weight: 700;
+  padding: 15px;
+}
+
+blockquote {
+  /*variabel*/
+  left: 0;
+  width: 60%;
+  font-size: 24pt;
+  -webkit-animation:0; /*infinite*/
+  -moz-animation:0;
+
+  /*standaard*/
+  position: relative;
+  margin: 0 auto;
+  font-weight: 400;
+  padding: 15px;
+
+}
+
+/*PAGENUMERS*/
+
+#pageFooter {
+  display: block;
+}
+
+#pageFooter:after {
+    counter-increment: page;
+    content:"Page " counter(page);
+    left: 0; 
+    top: 100%;
+    white-space: nowrap; 
+    z-index: 20px;
+    -moz-border-radius: 5px; 
+    -moz-box-shadow: 0px 0px 4px #222;  
+    background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);  
+    background-image: -moz-linear-gradient(top, #eeeeee, #cccccc);  
+  }
+
+
+@page {
+  @bottom-left {
+    content: counter(page) "/" counter(pages);
+  }
+}

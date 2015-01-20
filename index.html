@@ -6,12 +6,12 @@
     <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="js/scrollto.js"></script>  
     <script src="js/script.js"></script>
-    <script src="js/randomstyle.js"></script>
+    <!--<script src="js/randomstyle.js"></script>-->
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <!-- <link rel="stylesheet" type="text/css" href="css/normalize.css" /> -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" media="print" href="print.css" />
+    <link rel="stylesheet" type="text/css" media="print" href="css/print.css" />
   </head>
   <body>
     
@@ -20,15 +20,14 @@
       <div id="menu-lijst">
         <nav>
           <ul>
-            <li><a href="#p-home">Home</li>
-            <li><a href="#p-prologue">Sociale media als brandend haardvuur</li>
-            <li><a href="#p-inleiding">Inleiding</li>
+            <li><a href="#p-home">Home</a></li>
+            <li><a href="#p-prologue">Sociale media als brandend haardvuur</a></li>
+            <li><a href="#p-inleiding">Inleiding</a></li>
             <li><a href="#p-h1">We kijken graag</a></li>
             <li><a href="#p-h2">Klik hier!</a></li>
             <li><a href="#p-h3">Toekomst</a></li>
             <li><a href="#p-conclusie">Conclusie</a></li>
             <li><a href="#p-literatuurlijst">Literatuurlijst</a></li>
-            <li><a href="abstract.html">read abstract (EN)</a></li>
           </ul>
         </nav>
       </div>
@@ -36,7 +35,7 @@
     <div id="abstract"> 
       <a href="abstract.html">abstract</a> 
     </div>
-    <div id="print">
+    <div id="printbutton">
       <a href="javascript:window.print()">print pdf</a>
     </div>
     <div id="about"> 
@@ -52,13 +51,19 @@
         </nav>
       </div>
     </div>
+
+    
       
     <div id="thesis">
       <div id="random-style">
+        <div id="pageFooter">Page </div>
         <div class="item" id="p-home">
           <h1>Het</h1> 
           <h1>Digitale</h1> 
-          <h1>Haardvuur</h1> 
+          <h1>Haardvuur</h1>
+          <div id="print">
+            <p>Janine Terlouw, 2015 / Koninklijke Academie van Beeldende Kunsten, Den Haag / Afdeling: Grafisch Ontwerpen</p>
+          </div> 
         </div>
 
         <div class="item" id="p-prologue">
@@ -68,6 +73,19 @@
 
           <p>Het regent hard en ik zit als een verzopen kat in een lege bus terug naar huis. Het is pikdonker er valt niets te beleven in de 20 minuten durende busreis. Automatisch scroll ik door talloze beelden op mijn tijdlijn. Mijn tijdlijn zorgt voor eindeloos vermaak.</p>
         </div>
+
+          <div class="item" id="print">
+            <h2>Inhoudsopgave</h2> 
+            <p>Sociale media als brandend haardvuur</p>
+            <p>Inleiding</p>
+            <p>We kijken graag</p>
+            <p>Klik hier!</p>
+            <p>Toekomst</p>
+            <p>Conclusie</p>
+            <p>Abstract</p>
+            <p>Literatuurlijst</p>
+          </div>
+
 
         <div class="item" id="p-inleiding">
           <h3>Inleiding</h3>
@@ -131,7 +149,7 @@
           <p>Het is natuurlijk voor iedereen verschillend hoeveel tijd hij aan sociale media besteedt. Uit interesse heb ik daarom mijn eigen gegevens bijgehouden, zodat ik een goed beeld krijg van mijn internetgedrag. Voordat ik Facebook de-activeerde ging ik, als ik de computer een hele dag gebruikte, 40 keer per dag naar Facebook. Facebook stond vaak op de achtergrond open, ergens tussen mijn tabbladen. De chat was altijd actief. Voordat ik in slaap val, kijk ik vaak op mijn telefoon, scrollend door sociale media zoals Reddit of Instagram. Ik val letterlijk met mijn telefoon in slaap. Voordat ik mijn bed uitstap kijk ik ook vaak naar alle notificaties, en soms blijf ik in bed liggen om even ‘lekker wakker te worden’ met mijn telefoon. Ik kijk per dag gemiddeld 30 keer op mijn telefoon. Soms kort, soms lang.</p>
 
           <h3>Wat zien we daar?</h3> 
-          <p>Dagelijks hebben we de mogelijkheid meer dan duizenden beelden langs te gaan op sociale media. We zien beelden van onze omgeving en onze vrienden, we ontvangen reclames en zien ons het laatste nieuws. De sociale media geven alles weer op een tijdlijn. Wat betekent dat? Door welke beelden voelen we ons het meest aangetrokken?</p>
+          <p>Dagelijks hebben we de mogelijkheid meer dan duizenden beelden langs te gaan op sociale media. We zien beelden van onze omgeving en onze vrienden, we ontvangen reclames en zien het laatste nieuws. De sociale media geven alles weer op een tijdlijn. Wat betekent dat? Door welke beelden voelen we ons het meest aangetrokken?</p>
 
           <blockquote>“We live in a world of the mass producing and consuming of images which shape our lives and the public mind” - Bill Moyers<a href="" class="toggle-footnote">8</a></blockquote>
             <div class="footnote" data-id="8">
@@ -423,6 +441,30 @@
           <p>Bewust zijn van het feit dat we gemanipuleerd worden, maakt ons nog niet resistent tegen manipulatie. Maar ik denk dat als je weet dat je gemanipuleerd wordt, je je hiertegen kan verzetten en ook anderen kan laten inzien dat ze gemanipuleerd worden. <br/>
           Ik vind dat iedereen in zijn eigen leven mag bepalen wat hij doet. Dus als jij eindeloos naar het digitale haardvuur wilt staren, moet je dat doen. Maar wees je bewust van je keuzes.</p>
         </div>
+
+        <div class="item" id="print">
+          <h2>The Digital Fireplace</h2> 
+
+          <p>Wherever I stand or go – a restaurant, the cinema or even a public toilet – there are people holding a device in which they can do almost anything they can do at home via the Internet. This device, which we call a smartphone, has become an obsession for many people. With this device we are in continuous connection to the Internet and our social media. Social media gives the option to look at thousands of images per day.  These are pictures of your neighbor with her dog, a selfie of your best friend, a newborn baby or somewhat gruesome images from the war in Syria. Where it used to take place in public places and on our TV only, you carry it with you any time of the day in your pocket. We wake up with it, take it to work, and proceed to go to bed with it.</p> 
+
+          <p>We keep staring at our digital fire. We often keep looking at the same images and visit it one or more times a day. What is so exciting about the fire? How is it that we continue to look at the fire? I'm curious about the world of social media, and manipulation through images. My research question is:</p>
+
+          <blockquote>To what extent are we manipulated by image on social media?</blockquote>
+
+          <p><i>“We live in a world of the mass producing and consuming of images which shape our lives and the public mind” - Bill Moyers</i><a href="" class="toggle-footnote">1</a></p>
+          <div class="footnote" data-id="1">
+            Bill Moyers (1990) <i>Consuming Images</i> 
+            <a href="https://www.youtube.com/watch?v=3Rso4QX_VEI">[link]</a>
+          </div>
+
+          <p>Our brains are mainly focused on the visual perception. Our visual senses are stimulated by social media and thats why we go back often. Watching short information or images continuously, we create dopamine in your body, causing that image can be addictive. We keep on wanting more, image after image. By continuously looking at visual images and to get short amounts of texts our brain has evolved into a popcorn brain. And it is not just a mental addiction; the overuse of your smartphone can lead to phantom vibrations in your body. We can conclude that our smartphone and the use of social media is addictive.</p>
+
+          <p>Our behavior on the Internet is continuously monitored by social media and because of this they know what we like to see, and can advertise these images, so we will most likely click on them. Social media tests us by doing so. The images they show match with our feelings and our interests. We all live in separate social media bubbles that only strengthen themselves.</p>
+
+          <p>Science Fiction and recent technologies gives us an image of what might happen in the future. But even if we do make a prediction, there is always a factor that is still undetermined: people. There will occasionally be protested by users, but over time it seems to smooth out. Will we at one point say: Enough is enough?</p>
+
+
+
 
         <div class="item" id="p-literatuurlijst">
           <h2>Literatuurlijst</h2>
