@@ -1,8 +1,7 @@
 /*this is the print*/
 
 .item {
-  padding-bottom: 0;
-  page-break-before: left;
+  padding-top: 50px;
 
 }
 
@@ -36,11 +35,11 @@ a:after {
 }
 
 
-/*--TYPE--*/
+/*-- TYPE --*/
 
 h1  {
   /*variabel*/
-  left: 0;
+  left: -10%;
   font-size: 120pt;
   line-height: 120pt;
   -webkit-animation:0; /*infinite*/
@@ -50,7 +49,7 @@ h1  {
   position: relative;
   margin: 0 auto;
   font-weight: 700;
-  padding: 15px;
+  padding: 0;
 }
 
 blockquote {
@@ -69,9 +68,56 @@ blockquote {
 
 }
 
+/* IMAGES */
+
+.image-left {
+  /*position: absolute;*/
+  left: 30px;
+  width: 150px;
+  background-color: #000;
+  margin:10px;
+  padding: 15px;
+  opacity: 1;
+  z-index: 0;
+  -moz-filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
+
+.image-right   {
+  /*position: absolute;*/
+  right: 0%;
+  left: 30px;
+  width: 150px;
+  background-color: #000;
+  margin:10px;
+  padding: 15px;
+  opacity: 1;
+  z-index: 0;
+  -moz-filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
+
+.video   {
+  display: none;
+  position: absolute;
+  right: 10%;
+  width: 560px;
+  background-color: #000;
+  margin:15px;
+  margin-top: -200px;
+  padding: 15px;
+}
+
+img {
+  padding-bottom: 5px;
+  width: 150px;
+}
+
+
+
 /*PAGENUMERS*/
 
-#pageFooter {
+/*#pageFooter {
   display: block;
 }
 

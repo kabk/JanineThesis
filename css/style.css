@@ -26,9 +26,9 @@ body {
   display: none;
 }
 
-#pageFooter {
+/*#pageFooter {
   display: none;
-}
+}*/
 
 
 
@@ -45,8 +45,8 @@ body {
 h1  {
   /*variabel*/
   left: 0;
-  font-size: 150pt;
-  line-height: 150pt;
+  font-size: 140pt;
+  line-height: 140pt;
   -webkit-animation:0; /*infinite*/
   -moz-animation:0;
 
@@ -62,7 +62,7 @@ h2 {
   left: 0;
   width: 60%;
   font-size: 50pt;
-  /*-webkit-animation: whisper 7s ease-in-out infinite; /*infinite*/*/
+  /*-webkit-animation: whisper 7s ease-in-out infinite; /*infinite*/
   /*-moz-animation: whisper 7s ease-in-out infinite;*/
 
   /*standaard*/
@@ -295,7 +295,7 @@ blockquote>a {
   background-color: #000;
   margin:15px;
   padding: 15px;
-  opacity: 0.3;
+  opacity: 0.2;
   z-index: 40;
   -moz-filter: blur(2px);
   -webkit-filter: blur(2px);

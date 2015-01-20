@@ -46,17 +46,17 @@ $(function(){
 });
 
 //dit is op de plek zet code!!
-// $(function(){
+  // $(function(){
 
-//   $('.toggle-footnote').each(function(){
+  //   $('.toggle-footnote').each(function(){
 
-//     console.log($(this).offset());
+  //     console.log($(this).offset());
 
-//     $('.footnote[data-id=' + $(this).text() + ']').css('top', $(this).offset().top - $(window).scrollTop() );
+  //     $('.footnote[data-id=' + $(this).text() + ']').css('top', $(this).offset().top - $(window).scrollTop() );
 
-//   });
+  //   });
 
-// });
+  // });
 
 
 
