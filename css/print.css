@@ -1,0 +1,16 @@
+/*this is the print*/
+
+.item {
+  page-break-before: always
+}
+
+a:after {
+content: " (" attr(href) ") ";
+}
+
+#menu {
+display: none;
+}
+
+
+
