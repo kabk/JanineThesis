@@ -72,6 +72,7 @@ blockquote {
 
 .image-left {
   /*position: absolute;*/
+  display:none;
   left: 30px;
   width: 150px;
   background-color: #000;
@@ -85,6 +86,7 @@ blockquote {
 
 .image-right   {
   /*position: absolute;*/
+  display: none;
   right: 0%;
   left: 30px;
   width: 150px;
@@ -113,6 +115,13 @@ img {
   width: 150px;
 }
 
+.image-left, .image-right, .video, .footnote{
+  display:none !important;
+}
+
+#p-literatuurlijst p>a {
+  display: none;
+}
 
 
 /*PAGENUMERS*/
